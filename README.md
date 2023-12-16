@@ -82,7 +82,19 @@ plt.show()
 
 Essas etapas representam a coleta inicial de dados e a geração de mapas que serão utilizados para análises mais aprofundadas no projeto. As visualizações fornecem insights sobre a importância relativa de nós e arestas na rede viária de Parnamirim.
 
-## Resultados e Contribuições
+# Problemática
+
+A cidade de Parnamirim, localizada no estado do Rio Grande do Norte, enfrenta desafios significativos relacionados à mobilidade urbana, agravados por sua posição estratégica em relação à capital, Natal. A problemática envolve diversos fatores que impactam diretamente a fluidez do tráfego e a qualidade de vida dos cidadãos.
+
+## Crescimento Constante e Conexão com Natal
+
+Parnamirim experimenta um crescimento populacional e econômico contínuo. Sua proximidade com Natal resulta em uma complexa rede viária interligando as duas cidades por meio de várias avenidas ao longo da fronteira. Essa conexão intensa cria desafios adicionais para a mobilidade urbana, uma vez que as duas prefeituras precisam colaborar e coordenar esforços para resolver os problemas de tráfego e infraestrutura em conjunto.
+
+## Base Aérea de Natal como Desafio Adicional
+
+Outro ponto crítico é a presença da Base Aérea de Natal, localizada no coração de Parnamirim, ocupando uma extensa área em meio à cidade. Essa situação apresenta um desafio substancial para a mobilidade urbana, pois a cidade cresceu em torno da base militar. A necessidade de conciliar o fluxo diário de tráfego com as operações da base militar demanda uma abordagem cuidadosa e colaborativa entre as autoridades locais e militares. Além disso a base se encontra em meio a cidade, o que dificulta a construção de uma estrada entre regiões importantes que são divisadas pela base.
+
+## Integração Necessária entre Prefeituras
 
 Os resultados e análises deste projeto podem servir como base para discussões e tomadas de decisão relacionadas à mobilidade urbana em Parnamirim. Contribuições, sugestões e melhorias são bem-vindas por meio de issues ou pull requests.
 
