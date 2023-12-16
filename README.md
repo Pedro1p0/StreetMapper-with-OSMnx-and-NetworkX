@@ -20,13 +20,65 @@ Este projeto utiliza as bibliotecas NetworkX e OSMnx para realizar uma análise 
 
 5. **Proposta de Soluções**: Desenvolvemos soluções potenciais para os problemas identificados, visando melhorar a eficiência da mobilidade em Parnamirim.
 
-## Como Usar
+# Coleta de Dados
 
-1. **Requisitos**: Certifique-se de ter as bibliotecas necessárias instaladas. Você pode instalar as dependências executando `pip install -r requirements.txt`.
+Este projeto envolve a coleta de dados geoespaciais e a criação de mapas para análise da cidade de Parnamirim, RN. A seguir, são descritas as etapas de extração do mapa inicial, do mapa de calor baseado em nós e do mapa de calor baseado nas arestas.
 
-2. **Configuração**: No arquivo `config.py`, personalize as configurações conforme necessário para a análise da cidade.
+## 1. Extração do Mapa Inicial
 
-3. **Execução do Código**: Execute o script principal para obter e visualizar dados, além de realizar análises específicas.
+### Descrição:
+A biblioteca `osmnx` é utilizada para extrair o mapa inicial da cidade de Parnamirim, RN, a partir do OpenStreetMap (OSM). Essa biblioteca facilita a obtenção de dados de redes urbanas e permite a manipulação eficiente desses dados para análise posterior.
+
+### Código:
+
+```python
+import osmnx as ox
+
+# Definir o local (place_name) como Parnamirim, RN, e o tipo de rede como viária (network_type='drive')
+place_name = "Parnamirim, RN"
+G = ox.graph_from_place(place_name, network_type='drive')
+```
+
+## 2. Extração do Mapa de Calor Baseado em Nós
+
+### Descrição:
+Nesta etapa, criamos um mapa de calor baseado na centralidade dos nós da rede viária de Parnamirim. A centralidade de um nó indica sua importância na rede e pode ser calculada de várias maneiras, como centralidade de grau, proximidade, entre outras.
+
+### Código:
+
+```python
+import networkx as nx
+import matplotlib.pyplot as plt
+
+# Calcular a centralidade de grau para cada nó
+node_centrality = nx.degree_centrality(G)
+
+# Criar um mapa de calor baseado na centralidade dos nós
+plt.figure(figsize=(10, 10))
+ox.plot_graph(G, bgcolor='k', node_size=[v * 1000 for v in node_centrality.values()], node_color='r', node_edgecolor='none', node_zorder=2)
+plt.title("Mapa de Calor Baseado em Nós - Centralidade de Grau")
+plt.show()
+```
+
+## 3. Extração do Mapa de Calor Baseado nas Arestas
+
+### Descrição:
+Nesta etapa, geramos um mapa de calor baseado na centralidade das arestas do grafo. A centralidade das arestas pode ser calculada considerando a centralidade de proximidade ou outras métricas relevantes.
+
+### Código:
+
+```python
+# Calcular a centralidade de proximidade para cada aresta
+edge_centrality = nx.closeness_centrality(nx.line_graph(G))
+
+# Criar um mapa de calor baseado na centralidade das arestas
+plt.figure(figsize=(10, 10))
+ox.plot_graph(G, bgcolor='k', node_size=0, edge_color=edge_centrality.values(), edge_cmap=plt.cm.inferno, edge_linewidth=2, edge_alpha=0.7)
+plt.title("Mapa de Calor Baseado em Arestas - Centralidade de Proximidade")
+plt.show()
+```
+
+Essas etapas representam a coleta inicial de dados e a geração de mapas que serão utilizados para análises mais aprofundadas no projeto. As visualizações fornecem insights sobre a importância relativa de nós e arestas na rede viária de Parnamirim.
 
 ## Resultados e Contribuições
 
