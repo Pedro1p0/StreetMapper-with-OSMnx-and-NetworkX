@@ -93,7 +93,7 @@ Parnamirim experimenta um crescimento populacional e econômico contínuo. Sua p
 
 ## Base Aérea de Natal como Desafio Adicional
 
-Outro ponto crítico é a presença da Base Aérea de Natal, localizada no coração de Parnamirim, ocupando uma extensa área em meio à cidade. Essa situação apresenta um desafio substancial para a mobilidade urbana, pois a cidade cresceu em torno da base militar. A necessidade de conciliar o fluxo diário de tráfego com as operações da base militar demanda uma abordagem cuidadosa e colaborativa entre as autoridades locais e militares. Além disso a base se encontra em meio a cidade, o que dificulta a construção de uma estrada entre regiões importantes que são divisadas pela base.
+Outro ponto crítico é a presença da Base Aérea de Natal, localizada no coração de Parnamirim, ocupando uma extensa área em meio à cidade. Essa situação apresenta um desafio substancial para a mobilidade urbana, pois a cidade cresceu em torno da base militar. A necessidade de conciliar o fluxo diário de tráfego com as operações da base militar demanda uma abordagem cuidadosa e colaborativa entre as autoridades locais e militares. Além disso a base se encontra em meio a cidade, o que dificulta a construção de uma estrada entre regiões importantes que são divisadas pela base, se prestarmos atenção no mapa da cidade de Parnamirim exibido anteriormente, verificamos a existencia de um grande vazio no meio da cidade, e em seu entorno uma via com uma quantidade acentuada de conexões, como o mapa de calor aponta, essa região é justamente a localização da Base Aérea de Natal"
 
 # Natal e Parnamirim
 
