@@ -38,7 +38,8 @@ import osmnx as ox
 place_name = "Parnamirim, RN"
 G = ox.graph_from_place(place_name, network_type='drive')
 ```
-https://github.com/Pedro1p0/StreetMapper-with-OSMnx-and-NetworkX/blob/98dd1d7b89faf8fda44259ab08670537cebaf28e/graph_edges_Parnamirim.png
+![Resultado no VSCode]([https://github.com/Pedro1p0/Small-Worlds-Data-analysis/blob/d733ab54e35fc54356d779f12813c2cb0a1bf5f2/wiki_vote_dcata.png](https://github.com/Pedro1p0/StreetMapper-with-OSMnx-and-NetworkX/blob/98dd1d7b89faf8fda44259ab08670537cebaf28e/graph_edges_Parnamirim.png))
+
 ## 2. Extração do Mapa de Calor Baseado em Nós
 
 ### Descrição:
