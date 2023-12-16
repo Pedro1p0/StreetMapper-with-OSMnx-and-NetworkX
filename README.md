@@ -38,7 +38,7 @@ import osmnx as ox
 place_name = "Parnamirim, RN"
 G = ox.graph_from_place(place_name, network_type='drive')
 ```
-![Mapa default](https://github.com/Pedro1p0/StreetMapper-with-OSMnx-and-NetworkX/blob/98dd1d7b89faf8fda44259ab08670537cebaf28e/graph_edges_Parnamirim.png)
+![Mapa](https://github.com/Pedro1p0/StreetMapper-with-OSMnx-and-NetworkX/blob/2a76b922acd33869e3790c3557e28dc5427dd2cb/graph_original_Parnamirim.png)
 
 ## 2. Extração do Mapa de Calor Baseado em Nós
 
@@ -60,7 +60,7 @@ ox.plot_graph(G, bgcolor='k', node_size=[v * 1000 for v in node_centrality.value
 plt.title("Mapa de Calor Baseado em Nós - Centralidade de Grau")
 plt.show()
 ```
-
+![Mapa](https://github.com/Pedro1p0/StreetMapper-with-OSMnx-and-NetworkX/blob/98dd1d7b89faf8fda44259ab08670537cebaf28e/graph_edges_Parnamirim.png)
 ## 3. Extração do Mapa de Calor Baseado nas Arestas
 
 ### Descrição:
@@ -78,6 +78,7 @@ ox.plot_graph(G, bgcolor='k', node_size=0, edge_color=edge_centrality.values(), 
 plt.title("Mapa de Calor Baseado em Arestas - Centralidade de Proximidade")
 plt.show()
 ```
+![Mapa](https://github.com/Pedro1p0/StreetMapper-with-OSMnx-and-NetworkX/blob/2a76b922acd33869e3790c3557e28dc5427dd2cb/graph_nodes_Parnamirim.png)
 
 Essas etapas representam a coleta inicial de dados e a geração de mapas que serão utilizados para análises mais aprofundadas no projeto. As visualizações fornecem insights sobre a importância relativa de nós e arestas na rede viária de Parnamirim.
 
