@@ -95,7 +95,45 @@ Parnamirim experimenta um crescimento populacional e econômico contínuo. Sua p
 
 Outro ponto crítico é a presença da Base Aérea de Natal, localizada no coração de Parnamirim, ocupando uma extensa área em meio à cidade. Essa situação apresenta um desafio substancial para a mobilidade urbana, pois a cidade cresceu em torno da base militar. A necessidade de conciliar o fluxo diário de tráfego com as operações da base militar demanda uma abordagem cuidadosa e colaborativa entre as autoridades locais e militares. Além disso a base se encontra em meio a cidade, o que dificulta a construção de uma estrada entre regiões importantes que são divisadas pela base.
 
+# Natal e Parnamirim
 
+## Conexões Viárias e Desafios de Mobilidade
+
+Natal, como uma grande metrópole, é parte de uma região metropolitana composta por diversas cidades, ampliando a complexidade dos problemas de mobilidade urbana na área. A conectividade entre Natal e Parnamirim, duas cidades significativas nessa região, é vital, mas enfrenta desafios notáveis.
+
+![Natal Região Metropolitana](https://github.com/Pedro1p0/StreetMapper-with-OSMnx-and-NetworkX/blob/7fad9f82841a64365d75fface029da161582a3c8/Natal_regi%C3%A3o_metropolitana.png)
+
+Especificamente, a ligação entre os bairros de Nova Parnamirim e Neópolis destaca-se como uma área com problemas críticos de mobilidade. A alta densidade populacional nessa região faz fronteira entre as duas cidades, resultando em congestionamentos frequentes. Uma análise mais aprofundada desses dois bairros, utilizando o código abaixo, revela a importância da Avenida Ayrton Senna. Essa avenida, por sua grande quantidade de conexões entre os dois bairros, enfrenta um elevado volume de veículos diariamente.
+
+```python
+import osmnx as ox
+import networkx as nx
+import matplotlib.pyplot as plt
+
+# Defina o local como uma lista de bairros ['Nova Parnamirim, RN', 'Neópolis, RN']
+bairros = ['Nova Parnamirim, RN', 'Neópolis, RN']
+
+# Obtenha o grafo da rede viária para os dois bairros
+G_bairros = ox.graph_from_place(bairros, network_type='drive')
+
+# Projete o grafo
+G_bairros_projected = ox.project_graph(G_bairros)
+
+# Plote o grafo
+fig, ax = ox.plot_graph(G_bairros_projected, bgcolor='k', node_size=5, node_color='#999999', node_edgecolor='none', node_zorder=2,
+                        edge_color='#555555', edge_linewidth=1.5, edge_alpha=1)
+
+# Adicione rótulos para identificar os bairros
+for bairro in bairros:
+    gdf = ox.geocode_to_gdf([bairro])
+    ax.annotate(bairro.split(',')[0], (gdf.geometry.centroid.x.values[0], gdf.geometry.centroid.y.values[0]),
+                fontsize=8, ha='center', va='center', color='white')
+
+plt.show()
+```
+
+A visualização destaca a relevância da Avenida Ayrton Senna na interconexão entre Nova Parnamirim e Neópolis, evidenciando a necessidade de estratégias específicas para gerenciar e melhorar a mobilidade nessa área crítica, isso só pode ser alcançado através da cooperação entre ambas as prefeituras e o governo do Estado, para melhorar a infraestrutura e o planejamento da Avenida e de suas conexões.
+![Nova Parnamirim e Neópolis](https://github.com/Pedro1p0/StreetMapper-with-OSMnx-and-NetworkX/blob/7fad9f82841a64365d75fface029da161582a3c8/Nova_parnamirim_Ne%C3%B3polis.png)
 ## Licença
 
 Este projeto é distribuído sob a licença [MIT](LICENSE). Sinta-se à vontade para usar e adaptar conforme necessário.
