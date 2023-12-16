@@ -99,7 +99,35 @@ Outro ponto crítico é a presença da Base Aérea de Natal, localizada no cora�
 
 ## Conexões Viárias e Desafios de Mobilidade
 
-Natal, como uma grande metrópole, é parte de uma região metropolitana composta por diversas cidades, ampliando a complexidade dos problemas de mobilidade urbana na área. A conectividade entre Natal e Parnamirim, duas cidades significativas nessa região, é vital, mas enfrenta desafios notáveis.
+Natal, como uma grande metrópole, é parte de uma região metropolitana composta por diversas cidades, ampliando a complexidade dos problemas de mobilidade urbana na área. A conectividade entre Natal e Parnamirim, duas cidades significativas nessa região, é vital, mas enfrenta desafios notáveis. Aqui fizemos um plot de toda a região metropolitana de Natal, usando a biblioteca osnmx.
+```python
+# Geocode e projeta as cidades
+places = ox.geocode_to_gdf(['Parnamirim, RN', 'Natal, RN','Macaiba, RN','são gonçalo do amarante, RN'])
+places = ox.project_gdf(places)
+
+# Cores diferentes para Parnamirim e Natal
+colors = ['blue', 'green','red','purple']
+
+# Rótulos para cada cidade
+labels = ['Parnamirim', 'Natal','Macaiba','são gonçalo do amarante']
+
+# Plotagem
+fig, ax = plt.subplots(figsize=(10, 10))
+for i, (color, label) in enumerate(zip(colors, labels)):
+    places.iloc[i:i+1].plot(ax=ax, color=color, label=label)
+
+# Adiciona rótulos aos pontos centrais das cidades
+for i, txt in enumerate(labels):
+    ax.annotate(txt, (places['geometry'].iloc[i].centroid.x, places['geometry'].iloc[i].centroid.y),
+                fontsize=8, ha='center', va='center')
+
+# Configurações adicionais
+ax.axis('off')
+plt.legend()
+plt.show()
+
+```
+
 
 ![Natal Região Metropolitana](https://github.com/Pedro1p0/StreetMapper-with-OSMnx-and-NetworkX/blob/7fad9f82841a64365d75fface029da161582a3c8/Natal_regi%C3%A3o_metropolitana.png)
 
