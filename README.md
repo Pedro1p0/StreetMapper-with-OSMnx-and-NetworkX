@@ -88,6 +88,9 @@ plt.show()
 ```
 ![Mapa](https://github.com/Pedro1p0/StreetMapper-with-OSMnx-and-NetworkX/blob/98dd1d7b89faf8fda44259ab08670537cebaf28e/graph_edges_Parnamirim.png)
 
+![Mapa](https://github.com/Pedro1p0/StreetMapper-with-OSMnx-and-NetworkX/blob/main/graph_nodes_PonteVelha.png)
+
+![Mapa](https://github.com/Pedro1p0/StreetMapper-with-OSMnx-and-NetworkX/blob/main/graph_nodes_PonteVelhaBike.png)
 
 Essas etapas representam a coleta inicial de dados e a geração de mapas que serão utilizados para análises mais aprofundadas no projeto. As visualizações fornecem insights sobre a importância relativa de nós e arestas na rede viária de Parnamirim.
 
