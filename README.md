@@ -88,9 +88,7 @@ plt.show()
 ```
 ![Mapa](https://github.com/Pedro1p0/StreetMapper-with-OSMnx-and-NetworkX/blob/98dd1d7b89faf8fda44259ab08670537cebaf28e/graph_edges_Parnamirim.png)
 
-![Mapa](https://github.com/Pedro1p0/StreetMapper-with-OSMnx-and-NetworkX/blob/main/graph_edges_PonteVelha.png)
 
-![Mapa](https://github.com/Pedro1p0/StreetMapper-with-OSMnx-and-NetworkX/blob/main/graph_edges_PonteVelhaBike.png)
 
 Essas etapas representam a coleta inicial de dados e a geração de mapas que serão utilizados para análises mais aprofundadas no projeto. As visualizações fornecem insights sobre a importância relativa de nós e arestas na rede viária de Parnamirim e da Ponte de Igapó.
 
@@ -98,7 +96,7 @@ Essas etapas representam a coleta inicial de dados e a geração de mapas que se
 
 ![Mapa](https://github.com/Pedro1p0/StreetMapper-with-OSMnx-and-NetworkX/blob/main/PonteVelha(bike-carros).png)
 
-# Problemática
+# Problemática de Parnamirim/Natal
 
 A cidade de Parnamirim, localizada no estado do Rio Grande do Norte, enfrenta desafios significativos relacionados à mobilidade urbana, agravados por sua posição estratégica em relação à capital, Natal. A problemática envolve diversos fatores que impactam diretamente a fluidez do tráfego e a qualidade de vida dos cidadãos.
 
@@ -178,6 +176,28 @@ plt.show()
 A visualização destaca a relevância da Avenida Ayrton Senna na interconexão entre Nova Parnamirim e Neópolis, evidenciando a necessidade de estratégias específicas para gerenciar e melhorar a mobilidade nessa área crítica, isso só pode ser alcançado através da cooperação entre ambas as prefeituras e o governo do Estado, para melhorar a infraestrutura e o planejamento da Avenida e de suas conexões.
 ![Nova Parnamirim e Neópolis](https://github.com/Pedro1p0/StreetMapper-with-OSMnx-and-NetworkX/blob/7fad9f82841a64365d75fface029da161582a3c8/Nova_parnamirim_Ne%C3%B3polis.png)
 
+
+# Problemática de Natal/Zona Norte/São Gonçalo do Amarante
+
+A problemática da Zona Norte de Natal emerge como um dos principais desafios de mobilidade urbana no Estado do Rio Grande do Norte. A região enfrenta estrangulamentos críticos nas vias, notadamente nas duas pontes que atravessam o Rio Potengi. Esse fenômeno resulta em extensos engarrafamentos, particularmente durante os horários de pico, marcados pelas movimentadas idas ao trabalho pela manhã e o retorno no final da tarde.
+
+A situação é agravada pelo expressivo fluxo de trabalhadores e estudantes que se dirigem à zona central e sul da cidade. Estas áreas, sendo centros comerciais e concentrando grande parte dos empregos da cidade, tornam-se destinos frequentes para a população da Zona Norte. O movimento intenso nesses horários cria não apenas congestionamentos, mas também desafios significativos para a eficiência do transporte público e a qualidade de vida dos residentes.
+
+A necessidade de enfrentar essa problemática exige abordagens inovadoras e soluções estratégicas que visem a melhoria da infraestrutura viária, o reforço dos serviços de transporte público e a promoção de alternativas sustentáveis de deslocamento. A busca por uma mobilidade urbana mais eficiente na Zona Norte de Natal torna-se essencial não apenas para a comodidade dos cidadãos, mas também para o desenvolvimento sustentável e a vitalidade econômica da região.
+
+
+## Estudo sobre as regiões
+
+É viável incorporar ao grafo uma representação visual da importância das pontes e dos pontos críticos de estrangulamento nas vias. Estes são locais frequentemente escolhidos pelos motoristas para realizar a travessia, e tal análise fornece insights valiosos para o estudo sobre a expansão dessas travessias. A capacidade de visualizar de maneira intuitiva o mapa e identificar áreas de calor específicas contribui significativamente para o planejamento estratégico destinado a melhorar a mobilidade urbana.
+
+Esses estudos não apenas evidenciam os gargalos nas pontes e nas rotas de travessia, mas também oferecem uma base sólida para a preparação de iniciativas que visam otimizar a eficiência do sistema viário. Ao entender a dinâmica do tráfego e as áreas críticas de congestionamento, torna-se possível formular propostas informadas sobre a ampliação ou criação de novas travessias, contribuindo assim para a fluidez do trânsito e para a qualidade de vida dos cidadãos.
+
+A visualização da zona de calor no mapa proporciona uma perspectiva clara das áreas mais afetadas, permitindo uma abordagem proativa na implementação de melhorias. Este processo se revela crucial para o desenvolvimento sustentável da mobilidade urbana na Zona Norte de Natal, proporcionando soluções mais eficazes e adaptadas às necessidades específicas da comunidade.
+
+![Mapa](https://github.com/Pedro1p0/StreetMapper-with-OSMnx-and-NetworkX/blob/main/graph_edges_PonteVelha.png)
+
+![Mapa](https://github.com/Pedro1p0/StreetMapper-with-OSMnx-and-NetworkX/blob/main/graph_edges_PonteVelhaBike.png)
+
 ## Conclusão
 
 O projeto de análise de mobilidade em Parnamirim, Rio Grande do Norte, proporcionou uma visão detalhada dos desafios enfrentados pela cidade, considerando seu crescimento acelerado, a conectividade com Natal e a presença da Base Aérea de Natal. Utilizando ferramentas como as bibliotecas NetworkX e OSMnx, exploramos a infraestrutura viária e identificamos pontos críticos, sendo a região entre os bairros Nova Parnamirim e Neópolis um foco especial devido a problemas recorrentes de congestionamento.
@@ -185,7 +205,6 @@ O projeto de análise de mobilidade em Parnamirim, Rio Grande do Norte, proporci
 Durante a análise, a Avenida Ayrton Senna emergiu como um eixo vital na interconexão entre as duas cidades, evidenciando a necessidade de estratégias específicas para gerenciar e melhorar a mobilidade nessa área. A alta densidade populacional e o crescimento urbano ao redor da Base Aérea de Natal também representaram desafios singulares, exigindo uma abordagem colaborativa entre as autoridades locais e militares.
 
 Sugerimos diversas estratégias para melhorar a mobilidade em Parnamirim, incluindo aprimoramentos na Avenida Ayrton Senna, gestão de fluxo de tráfego, investimento em transporte público, integração modal, zoneamento urbano planejado e diálogo com a comunidade. A cooperação entre prefeituras, governo estadual e participação ativa da comunidade é crucial para implementar essas estratégias de maneira eficaz. Ressaltamos a importância do monitoramento contínuo para avaliar a eficácia das intervenções ao longo do tempo, garantindo a adaptação às mudanças nas condições de tráfego.
-
 
 ## Licença
 
