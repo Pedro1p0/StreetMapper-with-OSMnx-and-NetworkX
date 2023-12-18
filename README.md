@@ -191,6 +191,7 @@ Esses estudos não apenas evidenciam os gargalos nas pontes e nas rotas de trave
 A visualização da zona de calor no mapa proporciona uma perspectiva clara das áreas mais afetadas, permitindo uma abordagem proativa na implementação de melhorias. Este processo se revela crucial para o desenvolvimento sustentável da mobilidade urbana na Zona Norte de Natal, proporcionando soluções mais eficazes e adaptadas às necessidades específicas da comunidade.
 
 ![Mapa](https://github.com/Pedro1p0/StreetMapper-with-OSMnx-and-NetworkX/blob/main/graph_edges_PonteVelha.png)
+![Mapa](https://github.com/Pedro1p0/StreetMapper-with-OSMnx-and-NetworkX/blob/main/graph_edges_PonteVelhaBike.png)
 
 # Diferença dos gráficos entre carros e bicicletas( bicicleta - carros)
 
