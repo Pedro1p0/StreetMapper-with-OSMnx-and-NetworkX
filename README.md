@@ -87,11 +87,9 @@ plt.show()
 
 
 
-Essas etapas representam a coleta inicial de dados e a geração de mapas que serão utilizados para análises mais aprofundadas no projeto. As visualizações fornecem insights sobre a importância relativa de nós e arestas na rede viária de Parnamirim e da Ponte de Igapó.
+Essas etapas representam a coleta inicial de dados e a geração de mapas que serão utilizados para análises mais aprofundadas no projeto. As visualizações fornecem insights sobre a importância relativa de nós e arestas na rede viária de Parnamirim.
 
-# Diferença dos gráficos entre carros e bicicletas( bicicleta - carros)
 
-![Mapa](https://github.com/Pedro1p0/StreetMapper-with-OSMnx-and-NetworkX/blob/main/PonteVelha(bike-carros).png)
 
 # Problemática de Parnamirim/Natal
 
@@ -194,6 +192,9 @@ A visualização da zona de calor no mapa proporciona uma perspectiva clara das 
 
 ![Mapa](https://github.com/Pedro1p0/StreetMapper-with-OSMnx-and-NetworkX/blob/main/graph_edges_PonteVelha.png)
 
+# Diferença dos gráficos entre carros e bicicletas( bicicleta - carros)
+
+![Mapa](https://github.com/Pedro1p0/StreetMapper-with-OSMnx-and-NetworkX/blob/main/PonteVelha(bike-carros).png)
 
 ## Conclusão
 
