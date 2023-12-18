@@ -18,7 +18,7 @@ Este projeto utiliza as bibliotecas NetworkX e OSMnx para realizar uma análise 
 
 4. **Identificação de Problemas de Mobilidade**: Com base na análise do grafo, identificamos áreas de congestionamento, falta de conectividade e outros desafios de mobilidade.
 
-5. **Proposta de Soluções**: Desenvolvemos soluções potenciais para os problemas identificados, visando melhorar a eficiência da mobilidade em Parnamirim.
+5. **Proposta de Soluções**: Desenvolvemos soluções potenciais para os problemas identificados, visando melhorar a eficiência da mobilidade da região que interliga as cidades da metropóle com Natal.
 
 # Coleta de Dados
 
