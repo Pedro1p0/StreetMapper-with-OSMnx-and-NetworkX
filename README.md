@@ -63,6 +63,7 @@ plt.title("Mapa de Calor Baseado em Nós - Centralidade de Grau")
 plt.show()
 ```
 ![Mapa](https://github.com/Pedro1p0/StreetMapper-with-OSMnx-and-NetworkX/blob/2a76b922acd33869e3790c3557e28dc5427dd2cb/graph_nodes_Parnamirim.png)
+
 ![Mapa](https://github.com/Pedro1p0/StreetMapper-with-OSMnx-and-NetworkX/blob/main/graph_nodes_PonteVelha.png)
 ## 3. Extração do Mapa de Calor Baseado nas Arestas
 
