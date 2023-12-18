@@ -45,7 +45,7 @@ G = ox.graph_from_place(place_name, network_type='drive')
 ## 2. Extração do Mapa de Calor Baseado em Nós
 
 ### Descrição:
-Nesta etapa, criamos um mapa de calor baseado na centralidade dos nós da rede viária de Parnamirim. A centralidade de um nó indica sua importância na rede e pode ser calculada de várias maneiras, como centralidade de grau, proximidade, entre outras.
+Nesta etapa, criamos um mapa de calor baseado na centralidade dos nós da rede viária de Parnamirim e da Ponte de Igapó. A centralidade de um nó indica sua importância na rede e pode ser calculada de várias maneiras, como centralidade de grau, proximidade, entre outras.
 
 ### Código:
 
@@ -63,6 +63,7 @@ plt.title("Mapa de Calor Baseado em Nós - Centralidade de Grau")
 plt.show()
 ```
 ![Mapa](https://github.com/Pedro1p0/StreetMapper-with-OSMnx-and-NetworkX/blob/2a76b922acd33869e3790c3557e28dc5427dd2cb/graph_nodes_Parnamirim.png)
+![Mapa](https://github.com/Pedro1p0/StreetMapper-with-OSMnx-and-NetworkX/blob/main/graph_nodes_PonteVelha.png)
 ## 3. Extração do Mapa de Calor Baseado nas Arestas
 
 ### Descrição:
