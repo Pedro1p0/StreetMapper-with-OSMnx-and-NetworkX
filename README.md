@@ -40,9 +40,8 @@ G = ox.graph_from_place(place_name, network_type='drive')
 ```
 ![Mapa](https://github.com/Pedro1p0/StreetMapper-with-OSMnx-and-NetworkX/blob/2a76b922acd33869e3790c3557e28dc5427dd2cb/graph_original_Parnamirim.png)
 
-![Mapa](https://github.com/Pedro1p0/StreetMapper-with-OSMnx-and-NetworkX/blob/main/PonteVelha.png)
 
-![Mapa](https://github.com/Pedro1p0/StreetMapper-with-OSMnx-and-NetworkX/blob/main/PonteVelhaBike.png)
+
 
 ## 2. Extração do Mapa de Calor Baseado em Nós
 
@@ -185,6 +184,7 @@ A situação é agravada pelo expressivo fluxo de trabalhadores e estudantes que
 
 A necessidade de enfrentar essa problemática exige abordagens inovadoras e soluções estratégicas que visem a melhoria da infraestrutura viária, o reforço dos serviços de transporte público e a promoção de alternativas sustentáveis de deslocamento. A busca por uma mobilidade urbana mais eficiente na Zona Norte de Natal torna-se essencial não apenas para a comodidade dos cidadãos, mas também para o desenvolvimento sustentável e a vitalidade econômica da região.
 
+![Mapa](https://github.com/Pedro1p0/StreetMapper-with-OSMnx-and-NetworkX/blob/main/PonteVelha.png)
 
 ## Estudo sobre as regiões
 
