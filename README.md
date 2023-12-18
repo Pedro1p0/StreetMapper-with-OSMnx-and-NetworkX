@@ -27,7 +27,7 @@ Este projeto envolve a coleta de dados geoespaciais e a criação de mapas para 
 ## 1. Extração do Mapa Inicial
 
 ### Descrição:
-A biblioteca `osmnx` é utilizada para extrair o mapa inicial da cidade de Parnamirim, RN, e da Ponte de Igapó a partir do OpenStreetMap (OSM). Essa biblioteca facilita a obtenção de dados de redes urbanas e permite a manipulação eficiente desses dados para análise posterior.
+A biblioteca `osmnx` é utilizada para extrair o mapa inicial da cidade de Parnamirim, RN, e da Ponte de Igapó(Carros e bicicleta) a partir do OpenStreetMap (OSM). Essa biblioteca facilita a obtenção de dados de redes urbanas e permite a manipulação eficiente desses dados para análise posterior.
 
 ### Código:
 
