@@ -162,6 +162,16 @@ plt.show()
 
 A visualização destaca a relevância da Avenida Ayrton Senna na interconexão entre Nova Parnamirim e Neópolis, evidenciando a necessidade de estratégias específicas para gerenciar e melhorar a mobilidade nessa área crítica, isso só pode ser alcançado através da cooperação entre ambas as prefeituras e o governo do Estado, para melhorar a infraestrutura e o planejamento da Avenida e de suas conexões.
 ![Nova Parnamirim e Neópolis](https://github.com/Pedro1p0/StreetMapper-with-OSMnx-and-NetworkX/blob/7fad9f82841a64365d75fface029da161582a3c8/Nova_parnamirim_Ne%C3%B3polis.png)
+
+## Conclusão
+
+O projeto de análise de mobilidade em Parnamirim, Rio Grande do Norte, proporcionou uma visão detalhada dos desafios enfrentados pela cidade, considerando seu crescimento acelerado, a conectividade com Natal e a presença da Base Aérea de Natal. Utilizando ferramentas como as bibliotecas NetworkX e OSMnx, exploramos a infraestrutura viária e identificamos pontos críticos, sendo a região entre os bairros Nova Parnamirim e Neópolis um foco especial devido a problemas recorrentes de congestionamento.
+
+Durante a análise, a Avenida Ayrton Senna emergiu como um eixo vital na interconexão entre as duas cidades, evidenciando a necessidade de estratégias específicas para gerenciar e melhorar a mobilidade nessa área. A alta densidade populacional e o crescimento urbano ao redor da Base Aérea de Natal também representaram desafios singulares, exigindo uma abordagem colaborativa entre as autoridades locais e militares.
+
+Sugerimos diversas estratégias para melhorar a mobilidade em Parnamirim, incluindo aprimoramentos na Avenida Ayrton Senna, gestão de fluxo de tráfego, investimento em transporte público, integração modal, zoneamento urbano planejado e diálogo com a comunidade. A cooperação entre prefeituras, governo estadual e participação ativa da comunidade é crucial para implementar essas estratégias de maneira eficaz. Ressaltamos a importância do monitoramento contínuo para avaliar a eficácia das intervenções ao longo do tempo, garantindo a adaptação às mudanças nas condições de tráfego.
+
+
 ## Licença
 
 Este projeto é distribuído sob a licença [MIT](LICENSE). Sinta-se à vontade para usar e adaptar conforme necessário.
