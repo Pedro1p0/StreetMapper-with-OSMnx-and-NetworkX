@@ -205,6 +205,10 @@ Durante a análise, a Avenida Ayrton Senna emergiu como um eixo vital na interco
 
 Sugerimos diversas estratégias para melhorar a mobilidade em Parnamirim, incluindo aprimoramentos na Avenida Ayrton Senna, gestão de fluxo de tráfego, investimento em transporte público, integração modal, zoneamento urbano planejado e diálogo com a comunidade. A cooperação entre prefeituras, governo estadual e participação ativa da comunidade é crucial para implementar essas estratégias de maneira eficaz. Ressaltamos a importância do monitoramento contínuo para avaliar a eficácia das intervenções ao longo do tempo, garantindo a adaptação às mudanças nas condições de tráfego.
 
+# VIDEO EXPLICANDO O TRABALHO
+
+https://drive.google.com/file/d/10Cm1iMwfl7Z5SViadmUY2YnR8Bcd70Uq/view?usp=sharing
+
 ## Licença
 
 Este projeto é distribuído sob a licença [MIT](LICENSE). Sinta-se à vontade para usar e adaptar conforme necessário.
