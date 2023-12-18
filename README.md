@@ -196,7 +196,6 @@ A visualização da zona de calor no mapa proporciona uma perspectiva clara das 
 
 ![Mapa](https://github.com/Pedro1p0/StreetMapper-with-OSMnx-and-NetworkX/blob/main/graph_edges_PonteVelha.png)
 
-![Mapa](https://github.com/Pedro1p0/StreetMapper-with-OSMnx-and-NetworkX/blob/main/graph_edges_PonteVelhaBike.png)
 
 ## Conclusão
 
