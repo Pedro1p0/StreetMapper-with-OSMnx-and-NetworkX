@@ -4,6 +4,14 @@
 
 Bem-vindo ao projeto de Análise de Mobilidade na região metropolitana de Natal, Rio Grande do Norte. Em um esforço para compreender melhor os desafios de mobilidade na capital do Estado, decidimos explorar e analisar a infraestrutura viária e a conectividade urbana com Parnamirim e São Gonçalo. O crescimento econômico e populacional acelerado das cidades destaca a importância de abordar questões relacionadas à mobilidade de maneira eficaz.
 
+## Equipe
+
+- PEDRO VITOR BEZERRA CLEMENTE
+
+- PEDRO HENRIQUE BEZERRA FERNANDES
+
+- JOAO PEDRO SILVA ALVES
+
 ## Objetivo
 
 Este projeto utiliza as bibliotecas NetworkX e OSMnx para realizar uma análise abrangente da rede de ruas da região metropolitana de Natal. Buscamos identificar e compreender os desafios de mobilidade enfrentados pela cidade, avaliando a eficiência da infraestrutura viária, áreas de congestionamento e propondo soluções para melhorar a mobilidade urbana.
