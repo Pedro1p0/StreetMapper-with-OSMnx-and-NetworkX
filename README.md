@@ -205,6 +205,9 @@ Durante a análise, a Avenida Ayrton Senna emergiu como um eixo vital na interco
 
 Sugerimos diversas estratégias para melhorar a mobilidade em Parnamirim, incluindo aprimoramentos na Avenida Ayrton Senna, gestão de fluxo de tráfego, investimento em transporte público, integração modal, zoneamento urbano planejado e diálogo com a comunidade. A cooperação entre prefeituras, governo estadual e participação ativa da comunidade é crucial para implementar essas estratégias de maneira eficaz. Ressaltamos a importância do monitoramento contínuo para avaliar a eficácia das intervenções ao longo do tempo, garantindo a adaptação às mudanças nas condições de tráfego.
 
+Para os desafios de mobilidade na Zona Norte de Natal, é crucial adotar uma abordagem integrada e inovadora. A expansão e diversificação das travessias, incluindo a avaliação de novas pontes, e a otimização do transporte público são medidas essenciais para aliviar os congestionamentos nas pontes sobre o Rio Potengi. Incentivar o uso de meios sustentáveis, como ciclovias, e promover políticas de flexibilidade de trabalho também contribuirão para a redução do tráfego nos horários de pico. A implementação de soluções tecnológicas inteligentes, campanhas educativas e parcerias público-privadas fortalecerão a eficiência do sistema viário, proporcionando uma mobilidade urbana mais sustentável e melhorando a qualidade de vida na região.
+
+
 # Vídeo explicando sobre o trabalho desenvolvido
 
 https://drive.google.com/file/d/10Cm1iMwfl7Z5SViadmUY2YnR8Bcd70Uq/view?usp=sharing
